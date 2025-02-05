@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-monitoring-tool",
+  "version": "1.0.0",
+  "description": "A versatile tool for monitoring website status and delivering real-time notifications to WhatsApp, featuring customizable settings and multi-link support.",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js",
+    "dev": "nodemon monitor.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
